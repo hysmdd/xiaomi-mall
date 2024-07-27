@@ -1,0 +1,77 @@
+.rm {
+    position: fixed;
+    bottom: 70px;
+    right: 0;
+    width: 84px;
+    text-align: center;
+    color: #757575;
+    background: #fff;
+    z-index: 999;
+}
+
+.rm-item {
+    display: block;
+    height: 92px;
+    width: 100%;
+    border: 1px solid #f5f5f5;
+    border-top: none;
+    position: relative;
+}
+
+.rm-item:first-child,
+.rm-to-top {
+    border-top: 1px solid #f5f5f5;
+}
+
+.rm-item .iconfont {
+    display: block;
+    padding-top: 14px;
+    font-size: 30px;
+    padding-bottom: 6px;
+}
+
+.rm-to-top {
+    margin-top: 18px;
+}
+
+/* 二维码 */
+.rm-detail {
+    width: 128px;
+    position: absolute;
+    right: 90px;
+    top: 0;
+    padding: 14px;
+    background: #fff;
+    border: 1px solid #f5f5f5;
+    display: none;
+}
+
+.rm-detail::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    top: 50px;
+    right: -5.5px;
+    border: 1px solid #f5f5f5;
+    border-left: none;
+    border-bottom: none;
+    transform: rotate(45deg);
+}
+
+.rm-detail img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.rm-detail p {
+    color: #757575;
+    font-size: 16px;
+}
+
+.rm-item:hover .rm-detail {
+    display: block;
+}

@@ -1,0 +1,88 @@
+.main {
+    padding: 22px 0;
+    background: #f5f5f5;
+}
+
+.banner3 {
+    display: block;
+}
+
+.banner3 img {
+    width: 100%;
+    display: block;
+}
+
+/* 橱窗 */
+.sc {
+    margin-top: 20px;
+}
+
+.sc-top {
+    height: 58px;
+}
+
+.sc-top h2 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.sc-top .iconfont {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    background: #aaa;
+    line-height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.sc-item-first {
+    width: 234px;
+    height: 614px;
+    margin-right: 14px;
+}
+
+.sc-item-first img {
+    width: 234px;
+}
+
+.sc-item-list {
+    text-align: center;
+    width: 978px;
+}
+
+.sc-item {
+    margin-right: 14px;
+    margin-bottom: 14px;
+    height: 300px;
+    width: 234px;
+    background: #fff;
+}
+
+.sc-item:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sc-item img {
+    width: 160px;
+    height: 160px;
+    padding: 20px 0;
+}
+
+.sc-name {
+    color: #333;
+    font-size: 20px;
+}
+
+.sc-desc {
+    color: #b0b0b0;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.sc-price {
+    color: #ff6700;
+}

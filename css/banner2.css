@@ -1,0 +1,76 @@
+.banner-menu2 {
+    padding-top: 14px;
+    padding-bottom: 26px;
+}
+
+.banner2-service {
+    width: 234px;
+    height: 170px;
+    margin-right: 14px;
+    background: #5f5750;
+    text-align: center;
+    color: #ccc;
+    font-size: 12px;
+    padding: 3px;
+}
+
+.banner2-item {
+    width: 316px;
+    height: 170px;
+    margin-right: 15px;
+}
+
+.banner2-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner2-item:last-child {
+    margin-right: 0px;
+}
+
+.banner2-service a {
+    width: 76px;
+    height: 82px;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+}
+
+.banner2-service a:hover {
+    color: #fff;
+}
+
+.banner2-service .iconfont {
+    font-size: 26px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.banner2-service a::before {
+    content: '';
+    width: 1px;
+    height: 70px;
+    background: #665e57;
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+
+.banner2-service a::after {
+    content: '';
+    width: 64px;
+    height: 1px;
+    background: #665e57;
+    position: absolute;
+    left: 6px;
+    bottom: 0;
+}
+
+.banner2-service a:nth-child(3n + 1)::before {
+    content: none;
+}
+
+.banner2-service a:nth-child(n+4)::after {
+    content: none;
+}

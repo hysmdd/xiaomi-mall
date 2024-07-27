@@ -1,0 +1,68 @@
+.topnav {
+    background: #333;
+    color: #b0b0b0;
+    font-size: 12px;
+    height: 40px;
+}
+
+.topnav-menu {
+    line-height: 40px;
+}
+
+.topnav-menu a:hover {
+    color: #fff;
+}
+
+.topnav-menu li:not(:last-child) a:after {
+    content: '|';
+    padding: 0 7px;
+    color: #424242;
+}
+
+.topnav-menu li:first-child {
+    padding-left: 0;
+}
+
+.topnav-car {
+    width: 120px;
+    height: 40px;
+    margin-left: 13px;
+    background: #424242;
+    position: relative;
+}
+
+.topnav-link {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+}
+
+.topnav-link .iconfont {
+    margin-right: 3px;
+}
+
+.topnav-detail {
+    background: #fff;
+    height: 100px;
+    width: 320px;
+    border: 1px solid #ccc;
+    border-top: none;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    display: none;
+    z-index: 76;
+}
+
+.topnav-car:hover .topnav-detail {
+    display: block;
+}
+
+.topnav-car:hover .topnav-link {
+    background: #fff;
+    color: #ff6700;
+}
